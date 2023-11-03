@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1666025857",
+        "python_version": "3.8.14 (default, Sep  6 2022, 23:17:06) \n[Clang 13.1.6 (clang-1316.0.21.2.5)]",
+        "command_line_arguments": "/Users/jorisborsboom/git/intuitlab/mlagents_env_38/bin/mlagents-learn ./TrainerConfig/trainer_config_for_mlagentsV2andGreater.yaml --run-id=Test1",
+        "mlagents_version": "0.29.0.dev0",
+        "mlagents_envs_version": "0.29.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.2",
+        "numpy_version": "1.23.3",
+        "end_time_seconds": "1666025917"
+    },
+    "total": 60.590026334,
+    "count": 1,
+    "self": 0.020091291999996486,
+    "children": {
+        "run_training.setup": {
+            "total": 0.03301766699999997,
+            "count": 1,
+            "self": 0.03301766699999997
+        },
+        "TrainerController.start_learning": {
+            "total": 60.536917375,
+            "count": 1,
+            "self": 9.008399999999028e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.536754708000004,
+                    "count": 1,
+                    "self": 60.536754708000004
+                },
+                "TrainerController._save_models": {
+                    "total": 7.258299999790552e-05,
+                    "count": 1,
+                    "self": 7.258299999790552e-05
+                }
+            }
+        }
+    }
+}
