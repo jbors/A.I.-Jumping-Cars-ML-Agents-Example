@@ -2238,14 +2238,14 @@ MonoBehaviour:
   - Mover
   m_RaysPerDirection: 0
   m_MaxRayDegrees: 70
-  m_SphereCastRadius: 0.5
+  m_SphereCastRadius: 6.23
   m_RayLength: 52
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
   m_ObservationStacks: 1
   rayHitColor: {r: 0.9622642, g: 0.022694906, b: 0.040031556, a: 1}
-  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  rayMissColor: {r: 0.1996652, g: 0.9150943, b: 0.082013145, a: 1}
   m_StartVerticalOffset: 0.5
   m_EndVerticalOffset: 0.5
 --- !u!114 &1313390104
@@ -2272,7 +2272,7 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 5022602860645237092, guid: 865c49192d456443aad2abe828c66595, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_BehaviorType: 1
   m_BehaviorName: Jumper
   TeamId: 0
   m_UseChildSensors: 1
